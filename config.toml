@@ -1,3 +1,103 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# Site settings
+baseURL = "https://houstonperrett.com/"
+languageCode = "en-US"
+title = "Houston Perrett"
+theme = "hugo-split-theme"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Houston Perrett"
+  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  shareImage = "images/social.jpg"
+  twitterHandle = "onepagelove"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Copyright
+  copyright = "&copy;2017 Houston Perrett"
+
+  # Section - Content
+  [params.content]
+    name = "Houston Perrett"
+    tagline = "Former Husker. Actuary. Developer."
+    bio = "Hi. I'm Houston. I'm passionate about f."
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "https://blog.houstonperrett.com/"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto:hp@houstonperrett.com"
+
+      [[params.links.list1.link]]
+        text = "Resume"
+        url = "https://resume.houstonperrett.com/"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "https://twitter.com/HoustonPerrett"
+
+      [[params.links.list2.link]]
+        text = "LinkedIn"
+        url = "https://linkedin.com/HoustonPerrett"
+
+      [[params.links.list2.link]]
+        text = "Github"
+        url = "https://github.com/Houstonwp"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Network"
+
+      [[params.links.list3.link]]
+        text = "Actuarial Guide"
+        url = "https://actuarialguide.com/"
+
+      [[params.links.list3.link]]
+        text = "DSM Foodie"
+        url = "https://dsmfoodie.com/"
+
+      [[params.links.list3.link]]
+        text = "Heartland Greyhound Adoption"
+        url = "https://hga.dog/"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
