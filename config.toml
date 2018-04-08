@@ -25,8 +25,8 @@ googleAnalytics = ""
   # Section - Content
   [params.content]
     name = "Houston Perrett"
-    tagline = "Former Husker. Actuary. Developer."
-    bio = "Hi. I'm Houston. I'm passionate about f."
+    tagline = "Actuary. Developer. Tech Enthusiast."
+    bio = "Hi. I'm Houston. I spend my days solving actuarial problems and thinking about the interactions of technology, insurance, and society. I try to combine my background in programming and my expertise of the actuarial and financial domains to drive the industry and profession forward."
 
   # Section - Visual
   [params.visual]
@@ -34,7 +34,7 @@ googleAnalytics = ""
     # Image
     [params.visual.image]
       enable = true
-      file = "images/background.jpg"
+      file = "images/background-1.jpg"
       position = "center center"
 
     # Video
@@ -74,7 +74,7 @@ googleAnalytics = ""
 
       [[params.links.list2.link]]
         text = "LinkedIn"
-        url = "https://linkedin.com/HoustonPerrett"
+        url = "https://linkedin.com/in/HoustonPerrett"
 
       [[params.links.list2.link]]
         text = "Github"

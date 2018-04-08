@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\themes",
+    "\\themes\\hugo-split-theme",
+    "\\themes\\hugo-split-theme\\exampleSite"
   ],
+  "SelectedNode": "\\config.toml",
   "PreviewInSolutionExplorer": false
 }
