@@ -1,0 +1,2 @@
+# Redirect domain aliases to primary domain
+http://houstonperrett.com/* http://houstonp.com/:splat 301!
