@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://houstonperrett.com/"
+baseURL = "/"
 languageCode = "en-US"
 title = "Houston Perrett"
 theme = "hugo-split-theme"
@@ -12,9 +12,9 @@ googleAnalytics = ""
 
   # Metadata for search engines and social sharing
   name = "Houston Perrett"
-  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  description = "Hi. I'm Houston. I spend my days solving actuarial problems and thinking about the interactions of technology, insurance, and society."
   shareImage = "images/social.jpg"
-  twitterHandle = "onepagelove"
+  twitterHandle = "HoustonPerrett"
 
   # Favicon
   favicon = "favicon.ico"
@@ -53,15 +53,15 @@ googleAnalytics = ""
 
       [[params.links.list1.link]]
         text = "Blog"
-        url = "https://blog.houstonperrett.com/"
+        url = "https://blog.houstonp.com/"
 
       [[params.links.list1.link]]
         text = "Email"
-        url = "mailto:hp@houstonperrett.com"
+        url = "mailto:h@houstonp.com"
 
       [[params.links.list1.link]]
         text = "Resume"
-        url = "https://resume.houstonperrett.com/"
+        url = "https://resume.houstonp.com/"
 
   # Links List #2
   [[params.links]]
