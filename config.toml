@@ -57,7 +57,7 @@ googleAnalytics = "UA-67480960-1"
 
       [[params.links.list1.link]]
         text = "Email"
-        url = "mailto:h@houstonp.com"
+        url = "mailto:hp@houstonperrett.com"
 
       [[params.links.list1.link]]
         text = "Resume"
