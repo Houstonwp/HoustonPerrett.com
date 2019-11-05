@@ -6,7 +6,7 @@ theme = "hugo-split-theme"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-67480960-1"
+googleAnalytics = ""
 
 [params]
 
@@ -20,7 +20,7 @@ googleAnalytics = "UA-67480960-1"
   favicon = "favicon.ico"
 
   # Copyright
-  copyright = "&copy;2017 Houston Perrett"
+  copyright = "&copy;2019 Houston Perrett"
 
   # Section - Content
   [params.content]
@@ -57,7 +57,7 @@ googleAnalytics = "UA-67480960-1"
 
       [[params.links.list1.link]]
         text = "Email"
-        url = "mailto:hp@houstonperrett.com"
+        url = "mailto:hp@houstonp.com"
 
       [[params.links.list1.link]]
         text = "Resume"
