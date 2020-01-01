@@ -6,7 +6,7 @@ theme = "hugo-split-theme"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-67480960-1"
 
 [params]
 
@@ -81,21 +81,21 @@ googleAnalytics = ""
         url = "https://github.com/Houstonwp"
 
   # Links List #3
-  [[params.links]]
-    [params.links.list3]
-      heading = "Network"
+  #[[params.links]]
+  #  [params.links.list3]
+  #    heading = "Network"
 
-      [[params.links.list3.link]]
-        text = "Actuarial Guide"
-        url = "https://actuarialguide.com/"
+  #    [[params.links.list3.link]]
+  #      text = "Actuarial Guide"
+  #      url = "https://actuarialguide.com/"
 
-      [[params.links.list3.link]]
-        text = "DSM Foodie"
-        url = "https://dsmfoodie.com/"
+  #    [[params.links.list3.link]]
+  #      text = "DSM Foodie"
+  #      url = "https://dsmfoodie.com/"
 
-      [[params.links.list3.link]]
-        text = "Heartland Greyhound Adoption"
-        url = "https://hga.dog/"
+  #    [[params.links.list3.link]]
+  #      text = "Heartland Greyhound Adoption"
+  #      url = "https://hga.dog/"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.
