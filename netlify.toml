@@ -1,0 +1,3 @@
+[[redirects]]
+  from = "http://houstonperrett.com/* "
+  to = "http://houstonp.com/:splat"
