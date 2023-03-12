@@ -1,3 +1,5 @@
 [[redirects]]
-  from = "http://houstonperrett.com/* "
-  to = "http://houstonp.com/:splat"
+from = "http://houstonperrett.com/*"
+to = "http://houstonp.com/:splat"
+status = 301
+force = true
